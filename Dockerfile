@@ -14,7 +14,7 @@ USER cypress
 # --- Install Cypress package
 # (Avoid many lines of progress bars during install with CI=true)
 # https://github.com/cypress-io/cypress/issues/1243
-RUN CI=true npm install cypress@3.1.5
+RUN CI=true npm install cypress@3.4.0
 
 # Confirm the cypress install
 RUN ./node_modules/.bin/cypress verify
